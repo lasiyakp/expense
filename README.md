@@ -25,3 +25,14 @@ python -m expense_tracker.app
 ```bash
 pytest -q
 ```
+
+
+## Web Dashboard
+
+Run a professional browser dashboard powered by **WSGI + Bootstrap**:
+
+```bash
+python -m expense_tracker.web_app
+```
+
+Then open `http://localhost:5000` to add expenses and view summary cards, category breakdown, and a recent-expense table.
